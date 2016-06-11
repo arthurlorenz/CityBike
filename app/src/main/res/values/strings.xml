@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CityBike</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location_permission_denied">Permission denied</string>
+    <string name="permission_required_toast">Location permission is required for this app.</string>
+    <string name="permission_rationale_location">Access to the location service is required.</string>
+</resources>
