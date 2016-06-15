@@ -2,6 +2,7 @@ package com.example.arthur.citybike;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.os.AsyncTask;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
@@ -21,6 +22,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
@@ -33,6 +35,7 @@ public class MapsActivity extends FragmentActivity implements
     private GoogleMap mMap;
     private ArrayList<Station> stationList;
     JSONArray stationsJSON;
+    private final static String URL_CITY_BIKE = "http://dynamisch.citybikewien.at/citybike_xml.php?json";
 
 
     @Override
@@ -43,8 +46,12 @@ public class MapsActivity extends FragmentActivity implements
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        getStations();
         //Log.d("mainDingens", stationList.toString());
+        try {
+            new DownloadStations().execute(new URL(URL_CITY_BIKE));
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
 
     }
 
@@ -90,9 +97,9 @@ public class MapsActivity extends FragmentActivity implements
         return false;
     }
 
-    private void getStations() {
-
-        stationsJSON = getStationsJSON();
+    private void setStations(JSONArray stations) {
+        stationsJSON = stations;
+        stationList = new ArrayList<Station>();
 
         if(stationsJSON != null) {
 
@@ -114,6 +121,8 @@ public class MapsActivity extends FragmentActivity implements
                             jsonObject.getString("longitude"),
                             active
                     );
+
+                    Log.d("arraylist", station.toString());
                     if(stationList.add(station)) {
                     }else {
                         Log.d("arraylist", "shit");
@@ -124,38 +133,43 @@ public class MapsActivity extends FragmentActivity implements
                 }
             }
         }
-
-
     }
 
-    private JSONArray getStationsJSON() {
-        Thread thread = new Thread(new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                try {
-                    URL url = new URL("http://dynamisch.citybikewien.at/citybike_xml.php?json");
-                    HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                    httpURLConnection.setRequestMethod("GET");
-                    httpURLConnection.connect();
-                    InputStream inputStream = httpURLConnection.getInputStream();
-                    BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
-                    StringBuilder total = new StringBuilder();
-                    String line;
-                    while ((line = r.readLine()) != null) {
-                        total.append(line).append('\n');
-                    }
-                    JSONArray tempStationsJSON = new JSONArray(total.toString());
+    private class DownloadStations extends AsyncTask<URL, Integer, Long> {
 
-                } catch (IOException | JSONException e) {
-                    Log.e("getStations",Log.getStackTraceString(e));
+        JSONArray stations;
+
+        @Override
+        protected Long doInBackground(URL... params) {
+            try {
+                HttpURLConnection httpURLConnection = (HttpURLConnection) params[0].openConnection();
+                httpURLConnection.setRequestMethod("GET");
+                httpURLConnection.connect();
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
+                StringBuilder total = new StringBuilder();
+                String line;
+                while ((line = r.readLine()) != null) {
+                    total.append(line).append('\n');
                 }
-            }
-        });
+                stations = new JSONArray(total.toString());
 
-        thread.start();
-        return new JSONArray();
+            } catch (IOException | JSONException e) {
+                Log.e("getStations",Log.getStackTraceString(e));
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Long aLong) {
+            super.onPostExecute(aLong);
+            setStations(getStationJSON());
+        }
+
+        private JSONArray getStationJSON() {
+            return stations;
+        }
+
     }
 
 }

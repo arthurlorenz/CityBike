@@ -4,30 +4,35 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="18909853463688"
+    timestamp="18017018592539"
     token="5699157584604637251" >
 
     <task
         name="javac"
-        duration="53" />
+        duration="188" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="6" />
+        duration="17" />
     <task
         name="verifier"
         duration="1" />
 
     <artifact
-        location="/home/arthur/ownCloud/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        location="/home/arthur/ownCloud/AndroidStudioProjects/CityBikeVienna/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
         type="DEX" />
 
-    <build timestamp="18434802424649" >
+    <build timestamp="17430272606006" >
         <artifact
-            location="/home/arthur/ownCloud/AndroidStudioProjects/CityBike/app/build/outputs/apk/app-debug.apk"
+            location="/home/arthur/ownCloud/AndroidStudioProjects/CityBikeVienna/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="18017018592539" >
+        <artifact
+            location="/home/arthur/ownCloud/AndroidStudioProjects/CityBikeVienna/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
     </build>
     <build timestamp="18909853463688" >
         <artifact
