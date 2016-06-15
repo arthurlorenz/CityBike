@@ -2,16 +2,27 @@ package com.example.arthur.citybike;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
 import android.os.AsyncTask;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.text.format.DateUtils;
 import android.util.Log;
 
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.CameraPosition;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -34,9 +45,19 @@ public class MapsActivity extends FragmentActivity implements
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1;
     private GoogleMap mMap;
     private ArrayList<Station> stationList;
+    private ArrayList<MarkerOptions> markerList = new ArrayList<>();
+    private LocationManager mLocationManager;
     JSONArray stationsJSON;
     private final static String URL_CITY_BIKE = "http://dynamisch.citybikewien.at/citybike_xml.php?json";
+    private final static long LOCATION_REFRESH_TIME = DateUtils.SECOND_IN_MILLIS * 30; //30 sekunden
+    private final static float LOCATION_REFRESH_DISTANCE = 50; //50 meter
 
+    private final LocationListener mLocationListener = new LocationListener() {
+        @Override
+        public void onLocationChanged(final Location location) {
+            //TODO
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +67,7 @@ public class MapsActivity extends FragmentActivity implements
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        //Log.d("mainDingens", stationList.toString());
+
         try {
             new DownloadStations().execute(new URL(URL_CITY_BIKE));
         } catch (MalformedURLException e) {
@@ -68,12 +89,12 @@ public class MapsActivity extends FragmentActivity implements
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        if (mMap != null) {
-            mMap.setPadding(0, 50, 0, 0);
-            mMap.setOnMyLocationButtonClickListener(this);
-        }
 
         enableMyLocation();
+
+        setUpMap(googleMap);
+
+
     }
 
     /**
@@ -100,7 +121,7 @@ public class MapsActivity extends FragmentActivity implements
         stationsJSON = stations;
         stationList = new ArrayList<>();
 
-        if(stationsJSON != null) {
+        if (stationsJSON != null) {
 
             Log.d("arraylist", String.valueOf(stationsJSON.length()));
             //fill ArrayList
@@ -121,18 +142,68 @@ public class MapsActivity extends FragmentActivity implements
                             active
                     );
 
-                    Log.d("arraylist", station.toString());
-                    if(stationList.add(station)) {
-                        Log.d("arrayList", "geht");
-                    }else {
-                        Log.d("arraylist", "shit");
-                    }
+                    //add station to ArrayList
+                    stationList.add(station);
 
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
             }
         }
+    }
+
+    private void setMarkerList(ArrayList<Station> arrayList) {
+        for(int i = 0; i < arrayList.size(); i++) {
+            this.markerList.add(new MarkerOptions()
+                    .position(new LatLng(Double.parseDouble(arrayList.get(i).getLatitude()), Double.parseDouble(arrayList.get(i).getLongitude())))
+                    .title(arrayList.get(i).getStationName())
+                    .snippet("Freie Räder: "+arrayList.get(i).getBikesAvailable()+" Freie Boxen: "+arrayList.get(i).getBoxesAvailable()));
+        }
+    }
+
+    private void setMarker(ArrayList<MarkerOptions> markerList) {
+        for(int i = 0; i < markerList.size(); i++) {
+            this.mMap.addMarker(markerList.get(i));
+        }
+    }
+
+    private void setUpMap(GoogleMap googleMap) {
+
+       /* // Get LocationManager object from System Service LOCATION_SERVICE
+        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+
+        // Create a criteria object to retrieve provider
+        Criteria criteria = new Criteria();
+
+        // Get the name of the best provider
+        String provider = locationManager.getBestProvider(criteria, true);
+
+        // Get Current Location
+        Location myLocation = locationManager.getLastKnownLocation(provider);
+
+        // Get latitude of the current location
+        double latitude = myLocation.getLatitude();
+
+        // Get longitude of the current location
+        double longitude = myLocation.getLongitude();
+*/
+
+        mMap.setPadding(0, 50, 0, 0);
+        mMap.setOnMyLocationButtonClickListener(this);
+
+        double latitude = 48.209272;
+        double longitude = 16.372801;
+        // Create a LatLng object for the current location
+        LatLng latLng = new LatLng(latitude, longitude);
+
+        //set map type
+        googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+
+        // Show the current location in Google Map
+        googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+
+        // Zoom in the Google Map
+        googleMap.animateCamera(CameraUpdateFactory.zoomTo(12));
     }
 
     private class DownloadStations extends AsyncTask<URL, Integer, Long> {
@@ -164,6 +235,8 @@ public class MapsActivity extends FragmentActivity implements
         protected void onPostExecute(Long aLong) {
             super.onPostExecute(aLong);
             setStations(getStationJSON());
+            setMarkerList(stationList);
+            setMarker(markerList);
         }
 
         private JSONArray getStationJSON() {
