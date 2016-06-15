@@ -2,25 +2,17 @@ package com.example.arthur.citybike;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
-import android.location.Criteria;
-import android.location.Location;
-import android.location.LocationManager;
 import android.os.AsyncTask;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
-import android.text.format.DateUtils;
 import android.util.Log;
 
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationListener;
-import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -46,18 +38,8 @@ public class MapsActivity extends FragmentActivity implements
     private GoogleMap mMap;
     private ArrayList<Station> stationList;
     private ArrayList<MarkerOptions> markerList = new ArrayList<>();
-    private LocationManager mLocationManager;
     JSONArray stationsJSON;
     private final static String URL_CITY_BIKE = "http://dynamisch.citybikewien.at/citybike_xml.php?json";
-    private final static long LOCATION_REFRESH_TIME = DateUtils.SECOND_IN_MILLIS * 30; //30 sekunden
-    private final static float LOCATION_REFRESH_DISTANCE = 50; //50 meter
-
-    private final LocationListener mLocationListener = new LocationListener() {
-        @Override
-        public void onLocationChanged(final Location location) {
-            //TODO
-        }
-    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -203,7 +185,7 @@ public class MapsActivity extends FragmentActivity implements
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
 
         // Zoom in the Google Map
-        googleMap.animateCamera(CameraUpdateFactory.zoomTo(12));
+        googleMap.animateCamera(CameraUpdateFactory.zoomTo(13));
     }
 
     private class DownloadStations extends AsyncTask<URL, Integer, Long> {
