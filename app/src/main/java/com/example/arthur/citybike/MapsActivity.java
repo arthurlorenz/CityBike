@@ -91,7 +91,6 @@ public class MapsActivity extends FragmentActivity implements
         }
     }
 
-
     @Override
     public boolean onMyLocationButtonClick() {
         return false;
@@ -99,7 +98,7 @@ public class MapsActivity extends FragmentActivity implements
 
     private void setStations(JSONArray stations) {
         stationsJSON = stations;
-        stationList = new ArrayList<Station>();
+        stationList = new ArrayList<>();
 
         if(stationsJSON != null) {
 
@@ -124,9 +123,10 @@ public class MapsActivity extends FragmentActivity implements
 
                     Log.d("arraylist", station.toString());
                     if(stationList.add(station)) {
+                        Log.d("arrayList", "geht");
                     }else {
                         Log.d("arraylist", "shit");
-                    };
+                    }
 
                 } catch (JSONException e) {
                     e.printStackTrace();
