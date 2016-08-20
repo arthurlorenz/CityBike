@@ -368,17 +368,17 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2049,
-                    "endColumn": 299,
-                    "endOffset": 2344
+                    "endColumn": 112,
+                    "endOffset": 2157
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 323,
-                        "endColumn": 299,
-                        "endOffset": 618
+                        "startOffset": 344,
+                        "endColumn": 112,
+                        "endOffset": 452
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2349,
-                    "endColumn": 130,
-                    "endOffset": 2475
+                    "startOffset": 2162,
+                    "endColumn": 89,
+                    "endOffset": 2247
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 623,
-                        "endColumn": 130,
-                        "endOffset": 749
+                        "startOffset": 457,
+                        "endColumn": 89,
+                        "endOffset": 542
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2480,
-                    "endColumn": 195,
-                    "endOffset": 2671
+                    "startOffset": 2252,
+                    "endColumn": 117,
+                    "endOffset": 2365
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 754,
-                        "endColumn": 195,
-                        "endOffset": 945
+                        "startOffset": 547,
+                        "endColumn": 117,
+                        "endOffset": 660
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2676,
-                    "endColumn": 129,
-                    "endOffset": 2801
+                    "startOffset": 2370,
+                    "endColumn": 93,
+                    "endOffset": 2459
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 950,
-                        "endColumn": 129,
-                        "endOffset": 1075
+                        "startOffset": 665,
+                        "endColumn": 93,
+                        "endOffset": 754
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2806,
-                    "endColumn": 133,
-                    "endOffset": 2935
+                    "startOffset": 2464,
+                    "endColumn": 110,
+                    "endOffset": 2570
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 1080,
-                        "endColumn": 133,
-                        "endOffset": 1209
+                        "startOffset": 759,
+                        "endColumn": 110,
+                        "endOffset": 865
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2940,
-                    "endColumn": 243,
-                    "endOffset": 3179
+                    "startOffset": 2575,
+                    "endColumn": 104,
+                    "endOffset": 2675
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1214,
-                        "endColumn": 243,
-                        "endOffset": 1453
+                        "startOffset": 870,
+                        "endColumn": 104,
+                        "endOffset": 970
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 3184,
-                    "endColumn": 240,
-                    "endOffset": 3420
+                    "startOffset": 2680,
+                    "endColumn": 80,
+                    "endOffset": 2756
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1458,
-                        "endColumn": 240,
-                        "endOffset": 1694
+                        "startOffset": 975,
+                        "endColumn": 80,
+                        "endOffset": 1051
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3425,
-                    "endColumn": 132,
-                    "endOffset": 3553
+                    "startOffset": 2761,
+                    "endColumn": 95,
+                    "endOffset": 2852
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1699,
-                        "endColumn": 132,
-                        "endOffset": 1827
+                        "startOffset": 1056,
+                        "endColumn": 95,
+                        "endOffset": 1147
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3558,
-                    "endColumn": 199,
-                    "endOffset": 3753
+                    "startOffset": 2857,
+                    "endColumn": 95,
+                    "endOffset": 2948
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1832,
-                        "endColumn": 199,
-                        "endOffset": 2027
+                        "startOffset": 1152,
+                        "endColumn": 95,
+                        "endOffset": 1243
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3758,
-                    "endColumn": 124,
-                    "endOffset": 3878
+                    "startOffset": 2953,
+                    "endColumn": 107,
+                    "endOffset": 3056
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 2032,
-                        "endColumn": 124,
-                        "endOffset": 2152
+                        "startOffset": 1248,
+                        "endColumn": 107,
+                        "endOffset": 1351
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3883,
-                    "endColumn": 204,
-                    "endOffset": 4083
+                    "startOffset": 3061,
+                    "endColumn": 81,
+                    "endOffset": 3138
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 2157,
-                        "endColumn": 204,
-                        "endOffset": 2357
+                        "startOffset": 1356,
+                        "endColumn": 81,
+                        "endOffset": 1433
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 4088,
-                    "endColumn": 120,
-                    "endOffset": 4204
+                    "startOffset": 3143,
+                    "endColumn": 137,
+                    "endOffset": 3276
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 2362,
-                        "endColumn": 120,
-                        "endOffset": 2478
+                        "startOffset": 333,
+                        "endColumn": 137,
+                        "endOffset": 466
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 4209,
-                    "endColumn": 147,
-                    "endOffset": 4352
+                    "startOffset": 3281,
+                    "endColumn": 156,
+                    "endOffset": 3433
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 2483,
-                        "endColumn": 147,
-                        "endOffset": 2626
+                        "startOffset": 471,
+                        "endColumn": 156,
+                        "endOffset": 623
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 4357,
-                    "endColumn": 192,
-                    "endOffset": 4545
+                    "startOffset": 3438,
+                    "endColumn": 106,
+                    "endOffset": 3540
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 2631,
-                        "endColumn": 192,
-                        "endOffset": 2819
+                        "startOffset": 628,
+                        "endColumn": 106,
+                        "endOffset": 730
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4550,
-                    "endColumn": 152,
-                    "endOffset": 4698
+                    "startOffset": 3545,
+                    "endColumn": 78,
+                    "endOffset": 3619
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 2824,
-                        "endColumn": 152,
-                        "endOffset": 2972
+                        "startOffset": 1438,
+                        "endColumn": 78,
+                        "endOffset": 1512
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4703,
-                    "endColumn": 185,
-                    "endOffset": 4884
+                    "startOffset": 3624,
+                    "endColumn": 79,
+                    "endOffset": 3699
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 2977,
-                        "endColumn": 185,
-                        "endOffset": 3158
+                        "startOffset": 1517,
+                        "endColumn": 79,
+                        "endOffset": 1592
                     }
                 }
             },
@@ -671,18 +671,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4889,
-                    "endColumn": 133,
-                    "endOffset": 5018
+                    "startOffset": 3704,
+                    "endColumn": 82,
+                    "endOffset": 3782
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 3163,
-                        "endColumn": 133,
-                        "endOffset": 3292
+                        "startOffset": 1597,
+                        "endColumn": 82,
+                        "endOffset": 1675
                     }
                 }
             },
@@ -690,18 +690,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 5023,
-                    "endColumn": 183,
-                    "endOffset": 5202
+                    "startOffset": 3787,
+                    "endColumn": 97,
+                    "endOffset": 3880
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 3297,
-                        "endColumn": 183,
-                        "endOffset": 3476
+                        "startOffset": 1680,
+                        "endColumn": 97,
+                        "endOffset": 1773
                     }
                 }
             },
@@ -709,18 +709,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 5207,
-                    "endColumn": 131,
-                    "endOffset": 5334
+                    "startOffset": 3885,
+                    "endColumn": 97,
+                    "endOffset": 3978
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 3481,
-                        "endColumn": 131,
-                        "endOffset": 3608
+                        "startOffset": 1778,
+                        "endColumn": 97,
+                        "endOffset": 1871
                     }
                 }
             },
@@ -728,18 +728,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 5339,
-                    "endColumn": 242,
-                    "endOffset": 5577
+                    "startOffset": 3983,
+                    "endColumn": 92,
+                    "endOffset": 4071
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 323,
-                        "endColumn": 242,
-                        "endOffset": 561
+                        "startOffset": 1876,
+                        "endColumn": 92,
+                        "endOffset": 1964
                     }
                 }
             },
@@ -747,18 +747,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 5582,
-                    "endColumn": 303,
-                    "endOffset": 5881
+                    "startOffset": 4076,
+                    "endColumn": 102,
+                    "endOffset": 4174
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 3613,
-                        "endColumn": 303,
-                        "endOffset": 3912
+                        "startOffset": 1969,
+                        "endColumn": 102,
+                        "endOffset": 2067
                     }
                 }
             },
@@ -766,18 +766,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 5886,
-                    "endColumn": 122,
-                    "endOffset": 6004
+                    "startOffset": 4179,
+                    "endColumn": 104,
+                    "endOffset": 4279
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 24,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 3917,
-                        "endColumn": 122,
-                        "endOffset": 4035
+                        "startOffset": 2072,
+                        "endColumn": 104,
+                        "endOffset": 2172
                     }
                 }
             },
@@ -785,18 +785,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 6009,
-                    "endColumn": 113,
-                    "endOffset": 6118
+                    "startOffset": 4284,
+                    "endColumn": 75,
+                    "endOffset": 4355
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 25,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 4040,
-                        "endColumn": 113,
-                        "endOffset": 4149
+                        "startOffset": 2177,
+                        "endColumn": 75,
+                        "endOffset": 2248
                     }
                 }
             },
@@ -804,18 +804,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 6123,
-                    "endColumn": 199,
-                    "endOffset": 6318
+                    "startOffset": 4360,
+                    "endColumn": 98,
+                    "endOffset": 4454
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 4154,
-                        "endColumn": 199,
-                        "endOffset": 4349
+                        "startOffset": 2253,
+                        "endColumn": 98,
+                        "endOffset": 2347
                     }
                 }
             },
@@ -823,18 +823,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 6323,
-                    "endColumn": 132,
-                    "endOffset": 6451
+                    "startOffset": 4459,
+                    "endColumn": 96,
+                    "endOffset": 4551
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 4354,
-                        "endColumn": 132,
-                        "endOffset": 4482
+                        "startOffset": 2352,
+                        "endColumn": 96,
+                        "endOffset": 2444
                     }
                 }
             },
@@ -842,18 +842,18 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 6456,
-                    "endColumn": 220,
-                    "endOffset": 6672
+                    "startOffset": 4556,
+                    "endColumn": 101,
+                    "endOffset": 4653
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 4487,
-                        "endColumn": 220,
-                        "endOffset": 4703
+                        "startOffset": 2449,
+                        "endColumn": 101,
+                        "endOffset": 2546
                     }
                 }
             },
@@ -861,18 +861,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 6677,
-                    "endColumn": 140,
-                    "endOffset": 6813
+                    "startOffset": 4658,
+                    "endColumn": 143,
+                    "endOffset": 4797
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 29,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 4708,
-                        "endColumn": 140,
-                        "endOffset": 4844
+                        "startOffset": 2551,
+                        "endColumn": 143,
+                        "endOffset": 2690
                     }
                 }
             },
@@ -880,18 +880,18 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 6818,
-                    "endColumn": 205,
-                    "endOffset": 7019
+                    "startOffset": 4802,
+                    "endColumn": 128,
+                    "endOffset": 4926
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 30,
+                        "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 4849,
-                        "endColumn": 205,
-                        "endOffset": 5050
+                        "startOffset": 2695,
+                        "endColumn": 128,
+                        "endOffset": 2819
                     }
                 }
             },
@@ -899,18 +899,18 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 7024,
-                    "endColumn": 100,
-                    "endOffset": 7120
+                    "startOffset": 4931,
+                    "endColumn": 126,
+                    "endOffset": 5053
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 31,
+                        "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 5055,
-                        "endColumn": 100,
-                        "endOffset": 5151
+                        "startOffset": 2824,
+                        "endColumn": 126,
+                        "endOffset": 2946
                     }
                 }
             },
@@ -918,18 +918,18 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 7125,
-                    "endColumn": 92,
-                    "endOffset": 7213
+                    "startOffset": 5058,
+                    "endColumn": 127,
+                    "endOffset": 5181
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 32,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 5156,
-                        "endColumn": 92,
-                        "endOffset": 5244
+                        "startOffset": 2951,
+                        "endColumn": 127,
+                        "endOffset": 3074
                     }
                 }
             },
@@ -937,18 +937,18 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 7218,
-                    "endColumn": 108,
-                    "endOffset": 7322
+                    "startOffset": 5186,
+                    "endColumn": 95,
+                    "endOffset": 5277
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
                     "position": {
-                        "startLine": 33,
+                        "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 5249,
-                        "endColumn": 108,
-                        "endOffset": 5353
+                        "startOffset": 3079,
+                        "endColumn": 95,
+                        "endOffset": 3170
                     }
                 }
             },
@@ -956,9 +956,446 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 7327,
+                    "startOffset": 5282,
+                    "endColumn": 90,
+                    "endOffset": 5368
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 3175,
+                        "endColumn": 90,
+                        "endOffset": 3261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5373,
+                    "endColumn": 105,
+                    "endOffset": 5474
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 3266,
+                        "endColumn": 105,
+                        "endOffset": 3367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5479,
+                    "endColumn": 93,
+                    "endOffset": 5568
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 3372,
+                        "endColumn": 93,
+                        "endOffset": 3461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 5573,
                     "endColumn": 110,
-                    "endOffset": 7433
+                    "endOffset": 5679
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 110,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5684,
+                    "endColumn": 195,
+                    "endOffset": 5875
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 195,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5880,
+                    "endColumn": 129,
+                    "endOffset": 6005
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 636,
+                        "endColumn": 129,
+                        "endOffset": 761
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 6010,
+                    "endColumn": 133,
+                    "endOffset": 6139
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 766,
+                        "endColumn": 133,
+                        "endOffset": 895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 6144,
+                    "endColumn": 243,
+                    "endOffset": 6383
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 900,
+                        "endColumn": 243,
+                        "endOffset": 1139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 6388,
+                    "endColumn": 240,
+                    "endOffset": 6624
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1144,
+                        "endColumn": 240,
+                        "endOffset": 1380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 6629,
+                    "endColumn": 132,
+                    "endOffset": 6757
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1385,
+                        "endColumn": 132,
+                        "endOffset": 1513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 6762,
+                    "endColumn": 147,
+                    "endOffset": 6905
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1518,
+                        "endColumn": 147,
+                        "endOffset": 1661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 6910,
+                    "endColumn": 242,
+                    "endOffset": 7148
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 242,
+                        "endOffset": 569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 7153,
+                    "endColumn": 303,
+                    "endOffset": 7452
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1666,
+                        "endColumn": 303,
+                        "endOffset": 1965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 7457,
+                    "endColumn": 122,
+                    "endOffset": 7575
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1970,
+                        "endColumn": 122,
+                        "endOffset": 2088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 7580,
+                    "endColumn": 113,
+                    "endOffset": 7689
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2093,
+                        "endColumn": 113,
+                        "endOffset": 2202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 7694,
+                    "endColumn": 199,
+                    "endOffset": 7889
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2207,
+                        "endColumn": 199,
+                        "endOffset": 2402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 7894,
+                    "endColumn": 132,
+                    "endOffset": 8022
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2407,
+                        "endColumn": 132,
+                        "endOffset": 2535
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 8027,
+                    "endColumn": 220,
+                    "endOffset": 8243
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2540,
+                        "endColumn": 220,
+                        "endOffset": 2756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 8248,
+                    "endColumn": 140,
+                    "endOffset": 8384
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2761,
+                        "endColumn": 140,
+                        "endOffset": 2897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 8389,
+                    "endColumn": 205,
+                    "endOffset": 8590
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2902,
+                        "endColumn": 205,
+                        "endOffset": 3103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 8595,
+                    "endColumn": 100,
+                    "endOffset": 8691
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 3108,
+                        "endColumn": 100,
+                        "endOffset": 3204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 8696,
+                    "endColumn": 92,
+                    "endOffset": 8784
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3209,
+                        "endColumn": 92,
+                        "endOffset": 3297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 8789,
+                    "endColumn": 108,
+                    "endOffset": 8893
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3302,
+                        "endColumn": 108,
+                        "endOffset": 3406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 8898,
+                    "endColumn": 110,
+                    "endOffset": 9004
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -973,11 +1410,11 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 7438,
+                    "startOffset": 9009,
                     "endColumn": 113,
-                    "endOffset": 7547
+                    "endOffset": 9118
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -992,11 +1429,11 @@
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 7552,
+                    "startOffset": 9123,
                     "endColumn": 106,
-                    "endOffset": 7654
+                    "endOffset": 9225
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -1011,11 +1448,11 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 7659,
+                    "startOffset": 9230,
                     "endColumn": 113,
-                    "endOffset": 7768
+                    "endOffset": 9339
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -1030,11 +1467,11 @@
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 7773,
+                    "startOffset": 9344,
                     "endColumn": 131,
-                    "endOffset": 7900
+                    "endOffset": 9471
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -1049,11 +1486,11 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 7905,
+                    "startOffset": 9476,
                     "endColumn": 95,
-                    "endOffset": 7996
+                    "endOffset": 9567
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -1068,11 +1505,11 @@
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 8001,
+                    "startOffset": 9572,
                     "endColumn": 99,
-                    "endOffset": 8096
+                    "endOffset": 9667
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -1087,11 +1524,11 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 8101,
+                    "startOffset": 9672,
                     "endColumn": 124,
-                    "endOffset": 8221
+                    "endOffset": 9792
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -1106,11 +1543,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 8226,
+                    "startOffset": 9797,
                     "endColumn": 108,
-                    "endOffset": 8330
+                    "endOffset": 9901
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -1125,11 +1562,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 8335,
+                    "startOffset": 9906,
                     "endColumn": 85,
-                    "endOffset": 8416
+                    "endOffset": 9987
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -1144,11 +1581,11 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 8421,
+                    "startOffset": 9992,
                     "endColumn": 92,
-                    "endOffset": 8509
+                    "endOffset": 10080
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-de/values-de.xml",
@@ -1163,49 +1600,49 @@
             },
             {
                 "to": {
-                    "startLine": 63,
+                    "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 8514,
+                    "startOffset": 10085,
                     "endColumn": 108,
-                    "endOffset": 8618
+                    "endOffset": 10189
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 275,
+                        "startOffset": 281,
                         "endColumn": 108,
-                        "endOffset": 379
+                        "endOffset": 385
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 8623,
+                    "startOffset": 10194,
                     "endColumn": 94,
-                    "endOffset": 8713
+                    "endOffset": 10284
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/res/values-de/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/res/values-de/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 384,
+                        "startOffset": 390,
                         "endColumn": 94,
-                        "endOffset": 474
+                        "endOffset": 480
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 65,
+                    "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 8718,
+                    "startOffset": 10289,
                     "endColumn": 100,
-                    "endOffset": 8814
+                    "endOffset": 10385
                 },
                 "from": {
                     "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-de/values-de.xml",
@@ -1215,6 +1652,25 @@
                         "startOffset": 1999,
                         "endColumn": 100,
                         "endOffset": 2095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 10390,
+                    "endColumn": 108,
+                    "endOffset": 10494
+                },
+                "from": {
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/res/values-de/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 108,
+                        "endOffset": 392
                     }
                 }
             }

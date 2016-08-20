@@ -1706,13 +1706,13 @@
                     "endOffset": 18107
                 },
                 "from": {
-                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.0.2/res/values-v21/values.xml",
+                    "file": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/res/values-v21/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 220,
+                        "startOffset": 219,
                         "endColumn": 121,
-                        "endOffset": 337
+                        "endOffset": 336
                     }
                 }
             }
