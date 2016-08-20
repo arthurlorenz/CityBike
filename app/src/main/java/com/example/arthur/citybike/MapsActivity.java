@@ -7,7 +7,12 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -38,8 +43,8 @@ public class MapsActivity extends FragmentActivity implements
     private GoogleMap mMap;
     private ArrayList<Station> stationList;
     private ArrayList<MarkerOptions> markerList = new ArrayList<>();
-    JSONArray stationsJSON;
     private final static String URL_CITY_BIKE = "http://dynamisch.citybikewien.at/citybike_xml.php?json";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,7 +105,7 @@ public class MapsActivity extends FragmentActivity implements
     }
 
     private void setStations(JSONArray stations) {
-        stationsJSON = stations;
+        JSONArray stationsJSON = stations;
         stationList = new ArrayList<>();
 
         if (stationsJSON != null) {
@@ -170,7 +175,7 @@ public class MapsActivity extends FragmentActivity implements
         double longitude = myLocation.getLongitude();
 */
 
-        mMap.setPadding(0, 50, 0, 0);
+        //mMap.setPadding(0, 50, 0, 0);
         mMap.setOnMyLocationButtonClickListener(this);
 
         double latitude = 48.209272;

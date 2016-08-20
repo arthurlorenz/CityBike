@@ -123,6 +123,7 @@ public class Station {
             location.setLatitude(Double.parseDouble(latitude));
             location.setLongitude(Double.parseDouble(longitude));
         } catch (NumberFormatException e) {
+            e.toString();
         }
 
         this.location = location;

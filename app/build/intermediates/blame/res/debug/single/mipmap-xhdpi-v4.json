@@ -1,14 +1,6 @@
 [
     {
-        "merged": "/home/arthur/ownCloud/AndroidStudioProjects/CityBikeVienna/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
-        "source": "/home/arthur/ownCloud/AndroidStudioProjects/CityBikeVienna/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
         "source": "/home/arthur/AndroidStudioProjects/CityBike/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/arthur/ownCloud/AndroidStudioProjects/CityBike/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
-        "source": "/home/arthur/ownCloud/AndroidStudioProjects/CityBike/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]
