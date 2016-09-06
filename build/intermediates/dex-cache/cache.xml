@@ -1,2 +1,495 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/arthur/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_c24664cfe1923a6e12c52dc1e4a4099e2de8b98f/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_bec41698ddd0511cfce885dd413034266b029af5/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_99ec8030fcb36c4c760705aab17f77f32ed13daa/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.4.0_cde10a571e116e7c77423caf1572de7ad1c030c1/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_466cbc4ac634c7ac19babf39d67b3ec4f81b9d86/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.4.0_03e4cf23227e65f642c94c6565cd5664db75337c/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.4.0_d9fa0de10b15985dca7cad04c1cb6686340650e0/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.4.0_82860c0f43e9c31c1a01da94aa45c7647064917d/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_27290405956b3a317a311c6672131a47f4020e90/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_afc5498934c2991fc82abc49cf91549a33474c2e/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.4.0_e13c70b0dcf86d9f340c9a580eec931482454b1c/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_80480b2a70544ec1e74dc65aa763e04663afc88b/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_7fe84f063b3b5f1cf5dfa3bebe0fb97b57f1fbae/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_e80f7cbe93cf686504dee5edd2aada33ee7347e8/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_bfcd9796af76aa48186409cf7bc77806c9129065/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.4.0_874bc2a9f0bf3c6c253a232e1462b90f1b70f8ca/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.4.0_b3da1230b49a488e8145e971cfab2f6c8c1e1a37/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_aa7ee54353c14d4bd3c5364759bf82bf453ee256/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.4.0_bf701bd6b8a2164fbc3c0e3da36f38246d716f85/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.4.0_48b589819a8d8c692b90cc5d8834affa39914fe2/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.4.0_84517b3e6e938f233270f3394610e074f41e2a18/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_4c1bae7835deafe7d5312e854ee28650fae91230/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_03137951390525b19bb30173995cb5d3cf8e4e95/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_040ee31992ac9e0409cbf8551b9b79c5b8227124/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.4.0_647f760e1979092e0d03b5f66be7c774ef05722a/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_8d84b5697f2281aaac96830807019de477da2819/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.4.0_fe57a883ec4bebc5732ee82c0fbefe9ff59007a9/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_47b7a717d9eaa15ad4aa5ef893590191820494f3/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_e5c3b991bbb1794dd9930361601c0543fde89118/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_20e23990c08587ca92213a6269a27d64116bb54c/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.4.0_8673eb7a6d736f142aec0931e4e15133e7e09db6/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_95d1a6d9bc756980de45e916055eb23fbba2d8f8/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_c46df43dcf5f2c8cf80e35282c07be36fbdfea1b/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-contextmanager-9.4.0_748f529811ad885bc7f9da67d762cc64e3b94fab/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.4.0_091611c9eac74589833a2cd9efef4e3e38cbfd30/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_7232723b72274f70bcf8712e6dce1f0f14f3eecb/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_af52905088f797a8236338c3c7eb7a9419b9df3e/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.4.0_8be9692a72d09f4f68920d12f622a25d54aaed27/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.4.0_c92f382f5bd7c83a97f49db7cdfcd5ab31b5b124/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_662401cfc063ce0fe5e1fd84e2dde722a37bc548/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.4.0_c023a48cbca645d2f4a2639e8184855b64477fe4/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5f57901ad8bf509ab35d5a751882387515c677b9">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6a2ee36f22fd66254193efb49f2718350641201f/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_e88abe038eb2f04195177d81e5ec97a537a42af2/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.4.0_f92bc579ca9bfc73004ef3e7ed43078f7c222d5b/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.4.0_b1c5bc009ab89b5b783851ef1a9f08fdf63f34ca/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_f4cbdd3f670c9e2b92c9524de4f91626920ffce7/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.4.0_da28d55d5089ef41df4bd8185c98007f51d81296/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_ec6b347212c3bbadad21baa08af5ea7cad43aa7e/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_2cef6a8a55fda3681c8d8ba28eed591b82a20c70/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_3199f0a9f8e36e2de169a5bc37d0b2f5e1dd14b3/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.4.0_68bc7f5314aa9d7f575c028382fb35b19eb54bac/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.4.0_d086c15d31bf8496b7f6eb10a4373807307f34d5/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.4.0_b3123ad5411c37f1f5b48efe52d586939278d707/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.4.0_e6c450fdad903394d5243d866ae45079b1ef1c6f/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.4.0_0e4384e125fe55271c2c99cf6c1dc37cf9ac0df8/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_f5b6e1fbeeb0885e4af42817b51243e744c7f998/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_36e1be607c809a2fe75b3dd17a8fbc5bdd197798/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.4.0_e77af3fa1111ed2b4ff036ddc1a3089df1080c1f/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_e5a5219ea68e50e27cd450a287d4b4d4ff93a8af/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_a3cf5119f3073c1202726c28446be5c6b719101e/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_febae964abc45887d25d92f1e857cdeb8893bb92/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_9679b206ce2028120e2a9ad5ece9870886946caf/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.4.0_2468f1250aafd31f14dc52ad28c6d819415b6c36/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.4.0_ea314de8e2e4e7077ef158003454faeb5fd016c8/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_29531e44410c200fa05c9ad482f19438a524d0f5/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_e03ec17e1b3f278e48d2b163ef498f062c27894e/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.4.0_995e4e2a51f6eeb0249a6bb65cef3d807433a6c3/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.4.0_bd1ecfe502740371da3a7714740e2853cc6fc649/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fe61448251d7b09ca78029fc813c74d9f9c78750">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_856800dfe8083f0346433f7c3fb692fcaf1e2c60/classes.dex" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.4.0_c1c5f307a9ed5824cd88eab56abedd9edbf1ad1d/classes.dex" />
+    </item>
+
+</items>

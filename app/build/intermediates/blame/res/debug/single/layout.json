@@ -64,10 +64,6 @@
         "source": "/home/arthur/AndroidStudioProjects/CityBike/app/src/main/res/layout/content_menu.xml"
     },
     {
-        "merged": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/res/merged/debug/layout/fragment_copyright.xml",
-        "source": "/home/arthur/AndroidStudioProjects/CityBike/app/src/main/res/layout/fragment_copyright.xml"
-    },
-    {
         "merged": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/res/merged/debug/layout/cast_help_text.xml",
         "source": "/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/layout/cast_help_text.xml"
     },

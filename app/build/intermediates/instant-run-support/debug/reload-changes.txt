@@ -1,2 +1,17 @@
 CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/MainActivity$1$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/R$layout$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/R$integer$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/MainActivity$DownloadStations$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/MainActivity$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/R$raw$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/R$mipmap$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/google/android/gms/R$layout$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$layout$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/R$menu$override.class
 CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/design/R$layout$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/R$id$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/R$style$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/mediarouter/R$layout$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/R$styleable$override.class
+CHANGED,/home/arthur/AndroidStudioProjects/CityBike/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/arthur/citybike/R$string$override.class

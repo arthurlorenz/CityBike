@@ -1,7 +1,9 @@
 package com.example.arthur.citybike;
 
 import android.*;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -43,17 +45,16 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
-
-        OnMapReadyCallback,
-        GoogleMap.OnMyLocationButtonClickListener,
-        ActivityCompat.OnRequestPermissionsResultCallback {
+            OnMapReadyCallback,
+            GoogleMap.OnMyLocationButtonClickListener,
+            ActivityCompat.OnRequestPermissionsResultCallback {
 
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1;
     private GoogleMap mMap;
     private ArrayList<Station> stationList;
     private ArrayList<MarkerOptions> markerList = new ArrayList<>();
     private final static String URL_CITY_BIKE = "http://dynamisch.citybikewien.at/citybike_xml.php?json";
-    private Fragment copyrightFragment;
+    private Intent copyrightIntent;
 
 
     @Override
@@ -69,8 +70,8 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Test", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                /*Snackbar.make(view, "Test", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
             }
         });
 
@@ -133,14 +134,9 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        if (id == R.id.nav_copyright) {
+            copyrightIntent = new Intent(MainActivity.this, CopyrightActivity.class);
+            MainActivity.this.startActivity(copyrightIntent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
