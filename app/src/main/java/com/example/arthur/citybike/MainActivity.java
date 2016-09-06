@@ -69,19 +69,10 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Test", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
-
-
-        copyrightFragment = new CopyrightFragment();
-        // if(!copyrightFragment.isHidden()) {
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        //ft.setCustomAnimations(android.R.animator.fade_in, android.R.animator.fade_out);
-        ft.show(copyrightFragment);
-        ft.commit();
-        // }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
