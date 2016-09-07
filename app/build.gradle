@@ -1,11 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'CityBikeKey'
+            keyPassword 'CityBikeKeyPassword'
+            storeFile file('/home/arthur/.android/debug.keystore')
+            storePassword 'storePassword'
+        }
+    }
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
-
     defaultConfig {
-        applicationId "com.example.arthur.citybike"
+        applicationId "com.lorenz.arthur.citybike"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
@@ -13,16 +20,23 @@ android {
         // Enabling multidex support.
         multiDexEnabled true
     }
+    dexOptions {
+        javaMaxHeapSize "2048M"
+    }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
         }
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.0'
     compile 'com.google.android.gms:play-services:9.4.0'
