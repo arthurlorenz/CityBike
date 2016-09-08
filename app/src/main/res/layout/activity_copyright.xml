@@ -11,9 +11,9 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="\n Copyright (c) 2016\n Arthur Lorenz\n arthur.w.lorenz@gmail.com\n https://github.com/arthurlorenz/\n\n Hiermit wird klargestellt, dass\n  (a) Citybike Wien und die Gewista Werbeges.m.b.H. nicht für den Inhalt der Seite, des Services oder der Applikation verantwortlich sind\n  (b) Citybike Wien und die Gewista Werbeges.m.b.H. in keiner Weise mit dem/der/den BetreiberInnen in Verbindung steht\n  (c) Citybike Wien und die Gewista Werbeges.m.b.H. keine Verantwortung über Richtigkeit oder Aktualität der Daten übernimmt"
-        android:layout_gravity="left|top"
-        android:textAlignment="viewStart" />
-
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

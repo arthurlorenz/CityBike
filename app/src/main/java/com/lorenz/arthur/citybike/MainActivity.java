@@ -1,3 +1,20 @@
+/*
+ * Copyright © 2016  Arthur Lorenz (arthur.w.lorenz@gmail.com)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
 package com.lorenz.arthur.citybike;
 
 import android.content.Intent;
@@ -13,7 +30,9 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -48,12 +67,14 @@ public class MainActivity extends AppCompatActivity
     private ArrayList<MarkerOptions> markerList = new ArrayList<>();
     private final static String URL_CITY_BIKE = "http://dynamisch.citybikewien.at/citybike_xml.php?json";
     private Intent copyrightIntent;
+    private boolean stationsAlreadyLoaded;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        stationsAlreadyLoaded = false;
 
         setContentView(R.layout.activity_menu);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -73,11 +94,7 @@ public class MainActivity extends AppCompatActivity
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        try {
-            new DownloadStations().execute(new URL(URL_CITY_BIKE));
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
+        loadStations();
     }
 
     @Override
@@ -103,6 +120,13 @@ public class MainActivity extends AppCompatActivity
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+        return false;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
 
@@ -143,6 +167,22 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_reload) {
+            loadStations();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
     public boolean onMyLocationButtonClick() {
         return false;
     }
@@ -153,7 +193,6 @@ public class MainActivity extends AppCompatActivity
 
         if (stationsJSON != null) {
 
-            Log.d("arraylist", String.valueOf(stationsJSON.length()));
             //fill ArrayList
             for (int i = 0; i < stationsJSON.length(); i++) {
                 try {
@@ -193,8 +232,19 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void setMarker(ArrayList<MarkerOptions> markerList) {
+        //clear all markers if any are set
+        if(mMap != null)
+            mMap.clear();
+
+        //set markers
         for(int i = 0; i < markerList.size(); i++) {
             this.mMap.addMarker(markerList.get(i));
+        }
+        if(stationsAlreadyLoaded) {
+            Toast toast = Toast.makeText(this, "Stationen erfolgreich aktualisiert", Toast.LENGTH_LONG);
+            toast.show();
+        } else {
+            stationsAlreadyLoaded = true;
         }
     }
 
@@ -235,6 +285,14 @@ public class MainActivity extends AppCompatActivity
 
         // Zoom in the Google Map
         googleMap.animateCamera(CameraUpdateFactory.zoomTo(13));
+    }
+
+    private void loadStations() {
+        try {
+            new DownloadStations().execute(new URL(URL_CITY_BIKE));
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
     }
 
     private class DownloadStations extends AsyncTask<URL, Integer, Long> {

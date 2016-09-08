@@ -1,22 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'CityBikeKey'
-            keyPassword 'CityBikeKeyPassword'
-            storeFile file('/home/arthur/.android/debug.keystore')
-            storePassword 'storePassword'
-        }
-    }
-    compileSdkVersion 23
+    compileSdkVersion 24
     buildToolsVersion "23.0.3"
     defaultConfig {
         applicationId "com.lorenz.arthur.citybike"
         minSdkVersion 16
-        targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 24
+        versionCode 3
+        versionName "1.02"
         // Enabling multidex support.
         multiDexEnabled true
     }
@@ -27,10 +19,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
-        }
-        debug {
-            signingConfig signingConfigs.config
         }
     }
 }
